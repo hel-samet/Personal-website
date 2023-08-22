@@ -1,0 +1,283 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #212428;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cont{
+    margin-top: 100px;
+    
+}
+.conts{
+    padding: 0px;
+    gap: 0px;
+}
+.box-1{
+    position: sticky;
+    top: 10px;
+    background-color: #212428;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid #1a1d22;
+}
+
+.box-1 .imgs img{
+    width: 90px;
+    height: 100%;
+    object-fit: cover;
+    padding: 0px 0px 10px 0px ;
+   
+}
+.box-1 .imgs h1{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    font-weight: 700;
+
+    
+}
+.box-1 .imgs span{
+    color: #ad0d40ed;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.box-1 .imgs p{
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+.box-1 .imgs #sp{
+    font-size: 25px;
+    color: #ad0d40;
+    margin-left: 10px;
+    font-weight: 500;
+
+}
+.box-1 p{
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px;
+    margin-left: 5px;
+    
+}
+.btn {
+    padding: 0px 0px 5px 0px;
+    gap: 100%;
+}
+.btn button{
+    margin-left: 5px !important;
+    background-color:#ad0d40;
+    border: 1px #ad0d40 solid;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 3px;
+    transition: 0.6s;
+}
+.btn button:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+    color: red;
+}
+
+/* ................................................. */
+.box-2{
+    background-color: #212428;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #1a1d22;
+    position: 0px 0px 10px 0px;
+    
+}
+
+.box-2 .slide{
+    width: 100%;
+    height: 200px;
+    background-color: #ad0d40;
+}
+.box-2 .slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-2 h1{
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 0px 0px 20px 0px ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.074);
+
+}
+.top-2{
+    display: flex;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.text{
+    width: 50%;
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+}
+.igm{
+    width: 50%;
+    font-size: 17px;
+    color: white;
+    padding: 10px;
+}
+.igm img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: -20px;
+}
+.skill{
+    display: flex;
+    padding: 0px;
+    gap: 10px;
+}
+.skill img{
+    animation: rotate 10s linear infinite;
+}
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.bo-1{
+    margin-top: 10px;
+    padding: 10px;
+    width: 16%;
+    height: auto;
+    /* background-color: #ad0d40; */
+    border-radius: 10px;
+}
+.bo-1 img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+}
+.service{
+    padding: 10px;
+
+}
+.service p{
+    font-size: 14px;
+    color: white;
+
+}
+.service  p:hover{
+    color: #ad0d40;
+}
+.blog p{
+    color: white;
+    font-size: 14px;
+}
+.blog p:hover{
+    color: #ad0d40;
+}
+.portfolio{
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.portfolio .img-1{
+    width: 33%;
+    height: auto;
+    margin-top: 10px;
+}
+.img-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+.img-1 img:hover{
+    transform: scale(1.1);
+}
+
+.contact{
+    display: block;
+    background-color: rgba(240, 248, 255, 0);
+    width: 100%;
+    height: 120px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.container input[type="text"],
+.container textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.container textarea {
+    height: 100px;
+    
+}
+
+.container input[type="submit"] {
+
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#message{
+    background-color: #212428;
+    color: white;
+}
+
+#email{
+    background-color: #212428;
+    color: white;
+}
+#name{
+    background-color: #212428;
+    color: white;
+}
+.container sup{
+    color: red;
+    font-size: 15px;
+}
